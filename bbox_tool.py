@@ -190,7 +190,7 @@ class LabelTool:
             self.egList.append(ImageTk.PhotoImage(self.tmp[-1]))
             self.egLabels[i].config(image = self.egList[-1], width = SIZE[0], height = SIZE[1])
         self.loadImage()
-        self.print_log(str(self.total) + ' images loaded from ' + self.imageDir)
+        self.print_log(str(self.total) + ' Images loaded from ' + self.imageDir)
 
     def loadImage(self):
         # load image
@@ -405,7 +405,7 @@ class LabelTool:
 
 
     def create_images_list(self):
-         with open(self.imageDir + 'images_list.txt', 'w') as inFile:
+         with open(self.imageDir + 'images_list_lap.txt', 'w') as inFile:
              for im in self.imageList:
                 inFile.write(im+'\n')
              
