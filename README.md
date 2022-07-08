@@ -22,7 +22,7 @@ using one or two create download image and create annotate files (prefer method 
 
 After that create multiple image folder copy all the images and output_text file into this
 
-Goto google colab and change settings to GPU 
+Goto google colab and change settings to GPU (nessary)
 
 run a coding to file and after pretained weight gettting deleete everything except yolov4-custom.cfg in cfg file darknet
 
